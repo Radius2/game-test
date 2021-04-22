@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './components/App';
 import { ThemeProvider } from 'styled-components';
-import reportWebVitals from './reportWebVitals';
 import { theme } from './styledComponents/theme';
 import { GlobalStyle } from './styledComponents/components';
 import { BrowserRouter } from 'react-router-dom';
