@@ -4,7 +4,6 @@ import { Row, Divider } from '../styledComponents/components';
 import { Loading } from '../styledComponents/load';
 import parser from 'html-react-parser';
 import * as api from '../api/api';
-import { Switch } from 'react-router';
 import Modal from './Modal';
 
 const Container = styled.div`
@@ -89,7 +88,7 @@ const Game = ({ match }) => {
   const [game, setGame] = useState({});
   const [imgArray, setImgArray] = useState([]);
   const [loading, setLoading] = useState(true);
-  const [curImg, setCurImg] = useState('');
+ 
   const [curIndex, setCurIndex] = useState(0);
   const [showModal, setShowModal] = useState(false);
 
